@@ -15,6 +15,7 @@
   "dependencies": {
     "dotenv": "^18.0.9",
     "express": "^5.3.0",
+    "mongoose": "^9.11.4",
     "winston": "^3.19.0",
     "zod": "^4.6.7"
   },
