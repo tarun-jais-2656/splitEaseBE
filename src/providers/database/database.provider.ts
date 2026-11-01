@@ -19,3 +19,5 @@ export class DatabaseProvider {
     logger.info('MongoDB disconnected successfully');
   }
 }
+
+export const databaseProvider = new DatabaseProvider();
