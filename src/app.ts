@@ -1,4 +1,5 @@
 import express, { Express } from 'express';
+import { AppRoutes } from './app.routes';
 
 class App {
   public readonly app: Express;
@@ -19,6 +20,8 @@ class App {
         message: 'SplitEase API is running'
       });
     });
+
+    this.app.use('/api/v1', new AppRoutes().router);
   }
 }
 
